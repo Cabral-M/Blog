@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR" class="h-100">
+  <head>
+    <title>Nóticias | Asynchronism</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="rating" content="general">
+    <meta name="keywords" content="asynchronism, artigo, review, tutotial, ajuda, noticias, tecnologia">
+    <meta name="description" content="Blog sobre conteúdos de tecnologia e cultura Geek">
+    <meta name="copyright" content="© 2023 Asynchronism">
+    <meta name="author" content="Matheus de Oliveira Cabral">
+
+    <!-- Internal -->
+    <link rel="stylesheet" href="css/style.css"> <!-- CSS -->
+    <script src="js/script.js" defer></script> <!-- JavaScript -->
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="lib/jquery.mask.min.js"></script>
+
+    <!-- External -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="d-flex flex-column h-100 bg-light">
+    <!-- HEADER -->
+    <header role="heading">
+        <nav class="navbar navbar-expand-md navbar-dark nav-color fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/favicon/favicon-32x32.png" alt="Ir para página inicial ao clicar">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button> <!-- Button mobile -->
+                
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">Suporte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Doação</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex" role="search">
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- MAIN -->
+    <main class="flex-shrink-0" role="main">
+        <div class="container">
+            <h1 class="mt-5">Sticky footer with fixed navbar</h1>
+            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code> on the <code class="small">main &gt; .container</code>.</p>
+            <p>Back to <a href="/docs/5.3/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
+        </div>
+    </main>
+    
+    <!-- FOOTER @audit-ok -->
+    <footer class="footer footer-bg py-3 mt-auto">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a href="https://www.linkedin.com/in/matheus-cabrall/" target="_blank" class="nav-link px-2 text-body-emphasis">
+                    <i class="bi bi-linkedin text-light" title="Linkedin"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="https://github.com/Cabral-M" target="_blank" class="nav-link px-4 text-body-emphasis">
+                    <i class="bi bi-github text-light" title="GitHub"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="https://stackoverflow.com/users/21971363/matheus" target="_blank" class="nav-link px-2 text-body-secondary">
+                    <i class="bi bi-stack-overflow text-light" title="StackOverflow"></i>                    
+                </a>
+            </li>
+        </ul>
+        <div class="d-flex justify-content-center align-items-center">
+            <hr class="text-light" width="50%">
+        </div>
+        <p class="text-center text-light form-text">&COPY; 2023 Asynchronism, Inc</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+:root{
+    --clr-one: #161522;
+    --clr-two: #726AB4;
+    --bg-three: #EE4036;
+
+    --black-color: #333;
+}
+
+header > nav.nav-color{
+    background-image: linear-gradient(to right, var(--clr-two) 25%, var(--clr-one));
+}
+
+
+main > .container {
+    padding: 60px 15px 0;
+}
+
+footer.footer-bg{
+    background-image: linear-gradient(to bottom right, var(--black-color), var(--clr-one));
+}
